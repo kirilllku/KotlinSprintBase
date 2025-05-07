@@ -15,7 +15,7 @@ fun main() {
     // percent = 0.167f ANSWER: 1536438,875
 
     val sumOfBid = initialBid * ((1 + percent).pow(time))
-    //ANSWER: 1536438,629
+    //ANSWER: 1536438,428
 
     println("%.3f".format(sumOfBid))
 
