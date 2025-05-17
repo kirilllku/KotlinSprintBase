@@ -1,8 +1,8 @@
 package lesson_3
 
-fun main()  {
+fun main() {
     val name = "Татьяна"
-    val patronymic  = "Сергеевна"
+    val patronymic = "Сергеевна"
     var surname = "Андреева"
     var age = 20
 
