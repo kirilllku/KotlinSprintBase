@@ -17,14 +17,14 @@ class User2(
 
     fun changeBio() {
         print("Заполните поле bio: ")
-        bio = readln().toString()
+        bio = readln()
     }
 
     fun changePassword() {
         print("ИМЕНЕНИЕ ПАРОЛЯ\nВведите старый пароль: ")
-        if (readln().toString() == password) {
+        if (readln() == password) {
             print("Введите новый пароль: ")
-            val newPassword = readln().toString()
+            val newPassword = readln()
             password = newPassword
             println("Новый пароль успешно создан.")
         } else {
